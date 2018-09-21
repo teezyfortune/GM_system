@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" <---href=style.css"-- />
+    <link rel="stylesheet" type="text/css" media="screen" 
     <script src="main.js"></script>
     <style>
         .wrapper{
@@ -66,7 +66,7 @@
                 <img  style="with "src="./image.jpg">
             </div>
                    
-<form class="form-cont" action="../GM_system/user/insert.php" method="POST"> 
+<form class="form-cont" action="user/insertform.php" method="POST"> 
 <p style="font-size:32px; color:green;">Create Account</P>
     <label>first-name</label>
     <input type="text" name="fname" required placeholder="first name"><br>
@@ -103,10 +103,10 @@
 <label>state</label>
     <input type ="text" name="ustate" required placeholder="enter state"><br>
 
-<button style="background-color:green; border-color:white; width:100px; border-style:oval;" name="submit" id='submit'>signup</button>
+<button style="background-color:green; border-color:white; width:100px; border-style:oval;" name="signup" id='submit'>signup</button>
        </form
     </div>
     
 </div>
-</html>
 </body>
+</html>
